@@ -1,4 +1,4 @@
-const nanoid = require('nanoid')
+const nanoid = require('nanoid');
 
 const createUserModel = db => {
   return {
@@ -15,6 +15,6 @@ const createUserModel = db => {
       return newUser
     }
   }
-}
+};
 
-module.exports = createUserModel
+module.exports = createUserModel;
